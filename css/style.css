@@ -215,7 +215,7 @@ html {
   display: block;
 }
 .about-text1 {
-  margin-top: -150px;
+  margin-top: -125px;
   line-height: 1.5;
   color: #fff;
   font-size: 3.5rem;
@@ -225,12 +225,28 @@ html {
 .about-logo {
   margin-top: -80px;
 }
-.about-lg {
+.about-lg4 {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.about-down {
+  cursor: pointer;
+}
+.about-lg2 {
+  margin-top: 160px;
+  width: 100%;
+}
+.about-lg1 {
+  margin-top: 20px;
   width: 100%;
 }
 .about-top {
+  cursor: pointer;
   padding-top: 30px;
   margin-bottom: 130px;
+}
+.about-text2 {
+  padding-top: 20px;
 }
 
 .eat {

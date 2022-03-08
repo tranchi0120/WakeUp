@@ -23,7 +23,7 @@
     display: block;
   }
   &-text1 {
-    margin-top: -150px;
+    margin-top: -125px;
     line-height: 1.5;
     color: #fff;
     font-size: 3.5rem;
@@ -33,13 +33,30 @@
   &-logo {
     margin-top: -80px;
   }
-  &-lg {
+  &-lg4 {
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+  &-down {
+    cursor: pointer;
+  }
+
+  &-lg2 {
+    margin-top: 160px;
+    width: 100%;
+  }
+  &-lg1 {
+    margin-top: 20px;
     width: 100%;
   }
 
   &-top {
+    cursor: pointer;
     padding-top: 30px;
     margin-bottom: 130px;
+  }
+  &-text2 {
+    padding-top: 20px;
   }
   // padding: 120px 0;
   // &-main {
