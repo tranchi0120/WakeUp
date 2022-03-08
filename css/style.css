@@ -250,6 +250,7 @@ html {
 }
 
 .eat {
+  color: black;
   margin-top: -9px;
   background: #d5e7f2;
 }
@@ -264,6 +265,7 @@ html {
   width: 615px;
 }
 .eat-title {
+  color: black;
   padding-left: 40px;
   width: 500px;
   line-height: 2;
@@ -271,6 +273,7 @@ html {
   font-size: 2.5em;
 }
 .eat-content {
+  color: black;
   padding-right: 30px;
   width: 100%;
   padding-left: 40px;

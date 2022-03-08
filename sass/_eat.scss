@@ -1,8 +1,8 @@
 .eat {
+  color: black;
   margin-top: -9px;
   background: rgb(213, 231, 242);
-  &-main {
-  }
+
   // background: #fff;
   &-top {
     // display: grid;
@@ -21,6 +21,7 @@
     width: 615px;
   }
   &-title {
+    color: black;
     padding-left: 40px;
     width: 500px;
     line-height: 2;
@@ -28,6 +29,7 @@
     font-size: 2.5em;
   }
   &-content {
+    color: black;
     padding-right: 30px;
     width: 100%;
     padding-left: 40px;
