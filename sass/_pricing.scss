@@ -1,0 +1,58 @@
+// .pricing {
+//   margin-top: 100px;
+//   width: 100%;
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-gap: 0;
+//   &-title {
+//     font-size: 2rem;
+//     color: #f00;
+//   }
+//   &-content {
+//     font-size: 4rem;
+//     padding-top: 0.5rem;
+//     color: #fff;
+//   }
+//   &-icon {
+//     padding-right: 1rem;
+//     color: #f00;
+//   }
+//   &-check {
+//     line-height: 2;
+//     padding: 1rem 0;
+//     font-size: 1.4rem;
+//     color: #aaa;
+//   }
+//   //  pricing-center
+//   &-center {
+//     background: linear-gradient(130deg, #111 93%, transparent 90%);
+//     text-align: center;
+//   }
+//   &-plan {
+//     margin-top: 40px;
+//     color: #fff;
+//     font-size: 2.5rem;
+//   }
+//   &-price {
+//     font-size: 5rem;
+//     font-weight: bolder;
+//     color: #f00;
+//   }
+//   &-span {
+//     display: inline-block;
+//     color: #fff;
+//     font-size: 2rem;
+//   }
+//   &-right {
+//     text-align: center;
+//   }
+//   @media screen and (max-width: 767px) {
+//     grid-template-columns: repeat(1, 1fr);
+//     gap: 30px;
+//   }
+
+//   @media only screen and (max-width: 767px) and (min-width: 600px) {
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 10px;
+//   }
+// }

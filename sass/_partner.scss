@@ -1,0 +1,40 @@
+.partner {
+  &-text {
+    padding-top: 80px;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &-ct {
+    width: 290px;
+  }
+  &-food {
+    width: 100%;
+  }
+  &-r {
+    width: 190px;
+  }
+  &-img {
+    height: 210px;
+    margin: 0 5px;
+    border: 1px solid rgb(109, 216, 221);
+    text-align: center;
+  }
+
+  &-button {
+    cursor: pointer;
+    background: rgb(9, 129, 135);
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 450px;
+    color: white;
+  }
+  &-button:hover {
+    background: rgb(38, 93, 96);
+  }
+}

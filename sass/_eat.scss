@@ -1,0 +1,60 @@
+.eat {
+  margin-top: -9px;
+  background: rgb(213, 231, 242);
+  &-main {
+  }
+  // background: #fff;
+  &-top {
+    // display: grid;
+    display: flex;
+    align-items: center;
+  }
+
+  &-left {
+    // max-width: 615px;
+    width: 100%;
+  }
+  //   &-image {
+  //     width: 1550px;
+  //   }
+  &-img {
+    width: 615px;
+  }
+  &-title {
+    padding-left: 40px;
+    width: 500px;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  &-content {
+    padding-right: 30px;
+    width: 100%;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  &-link {
+    margin-left: 40px;
+    color: #000;
+    border-bottom: 5px solid #6dd8dd;
+  }
+  &-link:hover {
+    color: #6dd8dd;
+  }
+
+  &-bottom {
+    margin-top: -10px;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+  }
+  &-end {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+  }
+}

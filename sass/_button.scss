@@ -1,0 +1,43 @@
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  &-si {
+    color: #000;
+    width: 120px;
+    background: rgb(161, 227, 218);
+    background: radial-gradient(
+      circle,
+      rgba(161, 227, 218, 1) 20%,
+      rgba(34, 193, 195, 1) 100%
+    );
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  &-su {
+    color: #000;
+    width: 120px;
+    background: rgb(161, 227, 218);
+    background: radial-gradient(
+      circle,
+      rgba(161, 227, 218, 1) 20%,
+      rgba(34, 193, 195, 1) 100%
+    );
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  &-su:hover {
+    background: #126da6;
+    color: #fff;
+  }
+  &-si:hover {
+    background: #126da6;
+    color: #fff;
+  }
+}

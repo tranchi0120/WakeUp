@@ -1,0 +1,56 @@
+// .box {
+//   background: #111;
+//   width: 100%;
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-gap: 0;
+//   &-image {
+//     object-fit: cover;
+//     width: 100%;
+//     height: 310px;
+//   }
+//   &-img {
+//     margin-top: 20px;
+//     height: 9rem;
+//     margin-bottom: 1rem;
+//     filter: invert(1);
+//   }
+//   &-content {
+//     height: 315px;
+//     text-align: center;
+//   }
+//   &-title {
+//     font-size: 2rem;
+//     color: #f00;
+//   }
+//   &-text {
+//     line-height: 2;
+//     font-size: 1.5rem;
+//     color: #aaa;
+//     padding: 1rem 0;
+//   }
+
+//   @media screen and (max-width: 1023px) and (min-width: 768px) {
+//     grid-template-columns: repeat(1, 1fr);
+//     &-combine {
+//       grid-template-columns: repeat(2, 1fr);
+//       display: grid;
+//     }
+//   }
+
+//   @media screen and (max-width: 767px) {
+//     grid-template-columns: repeat(1, 1fr);
+//     &-second {
+//       display: flex;
+//       flex-flow: column-reverse;
+//     }
+//   }
+
+//   // mini tablet
+//   @media only screen and (max-width: 767px) and (min-width: 600px) {
+//     &-combine {
+//       grid-template-columns: repeat(2, 1fr);
+//       display: grid;
+//     }
+//   }
+// }

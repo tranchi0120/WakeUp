@@ -1,0 +1,67 @@
+// .testimonials {
+//   margin-bottom: 70px;
+//   &-main {
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     gap: 2rem;
+//   }
+//   &-left {
+//     flex: 1 1 35rem;
+//   }
+//   &-right {
+//     background: linear-gradient(130deg, #111 93%, transparent 90%);
+//     padding: 2rem 3rem;
+//     flex: 1 1 60rem;
+//   }
+//   &-span {
+//     color: #f00;
+//     font-size: 2rem;
+//   }
+//   &-title {
+//     color: #fff;
+//     font-size: 3rem;
+//     padding-top: 1rem;
+//   }
+//   &-user {
+//     display: flex;
+
+//     &-image {
+//       height: 5rem;
+//       width: 5rem;
+//       object-fit: cover;
+//       border-radius: 50%;
+//       margin-right: 1rem;
+//     }
+
+//     &-icon {
+//       font-size: 6rem;
+//       margin-left: auto;
+//       margin-right: 2rem;
+//       color: #f00;
+//     }
+//   }
+//   &-info {
+//     &-name {
+//       color: #fff;
+//       font-size: 2rem;
+//     }
+//     &-des {
+//       color: #f00;
+//       font-size: 1.5rem;
+//     }
+//   }
+//   @media screen and (min-width: 1024px) and (max-width: 1366px) {
+//     &-main {
+//       display: inline-block;
+//     }
+//     &-left {
+//       margin-bottom: 30px;
+//     }
+//     &-user {
+//       &-icon {
+//         margin-right: 5rem;
+//       }
+//     }
+//   }
+// }

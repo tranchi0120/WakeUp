@@ -1,0 +1,55 @@
+.hero {
+  background: #d5f7f2;
+  width: 100%;
+  // background: url('/images/bn.png') no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center !important;
+
+  &-content {
+    display: flex;
+    // padding: 160px 0;
+    margin-bottom: -32px;
+    margin-top: 90px;
+    display: flex;
+  }
+  &-text {
+    font-size: 2rem;
+    color: #000;
+  }
+
+  &-left {
+    padding: 160px 0;
+  }
+  &-right {
+    margin-top: -151px;
+  }
+  &-title {
+    line-height: 2;
+    width: 600px;
+    font-size: 5rem;
+    padding: 1rem 0;
+    color: #126da6;
+  }
+
+  &-img {
+    padding-top: 137px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    height: 550px;
+    &-title {
+      width: 350px;
+      font-size: 3rem;
+      padding: 1rem 0;
+      color: #fff;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    &-title {
+      width: 300px;
+    }
+  }
+}

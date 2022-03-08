@@ -1,0 +1,25 @@
+.header {
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  background: #fff;
+  z-index: 10000;
+  &-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+  }
+  &-lg {
+    // font-size: 3rem;
+    // color: #fff;
+    width: 10 0px;
+    height: 70px;
+  }
+  // &-sp {
+  //   color: rgb(59, 56, 56);
+  // }
+}

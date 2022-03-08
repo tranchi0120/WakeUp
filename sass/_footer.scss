@@ -1,0 +1,226 @@
+.footer {
+  background: #fff;
+  position: relative;
+  &-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  // &-gach {
+  //   margin-top: 80px;
+  //   height: 3px;
+  //   background-color: #000;
+  // }
+  &-topic {
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+
+  &-title {
+    font-size: 2rem;
+  }
+  &-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+  }
+  &-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #111;
+  }
+  &-link:hover {
+    color: #6dd8dd;
+  }
+  &-text {
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+  }
+
+  &-icons {
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  &-icon {
+    padding: 0 5px;
+  }
+  &-fb:hover {
+    background-color: rgb(5, 37, 93);
+  }
+  &-ig:hover {
+    background-color: rgb(147, 5, 57);
+  }
+  &-mail:hover {
+    background-color: rgb(226, 17, 17);
+  }
+  &-phone:hover {
+    background-color: rgb(10, 91, 5);
+  }
+  &-ytb:hover {
+    background-color: rgb(100, 18, 18);
+  }
+
+  &-ytb {
+    padding: 8px 2px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    color: #aaa;
+    font-size: 25px;
+  }
+  &-fb {
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    color: #aaa;
+    font-size: 25px;
+  }
+  &-ig {
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    color: #aaa;
+    font-size: 25px;
+  }
+  &-mail {
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    color: #aaa;
+    font-size: 25px;
+  }
+  &-phone {
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    color: #aaa;
+    font-size: 25px;
+  }
+  // &-main {
+  //   margin-bottom: 50px;
+  //   display: grid;
+  //   grid-template-columns: repeat(4, 1fr);
+  //   gap: 1rem;
+  // }
+  // &-title {
+  //   font-size: 2.2rem;
+  //   color: #fff;
+  //   padding: 1rem 0;
+  // }
+  // &-links {
+  //   display: flex;
+  //   flex-direction: column;
+  //   &-link {
+  //     font-size: 1.5rem;
+  //     display: block;
+  //     color: #aaa;
+  //     padding: 1rem 0;
+  //   }
+  // }
+  // &-day {
+  //   font-size: 1.5rem;
+  //   color: #aaa;
+  //   padding: 1rem 0;
+  //   &-time {
+  //     padding-right: 0.5rem;
+  //     color: #f00;
+  //   }
+  // }
+  // &-phone {
+  //   font-size: 1.5rem;
+  //   color: #aaa;
+  //   padding: 1rem 0;
+  // }
+  // &-icon {
+  //   padding-right: 0.5rem;
+  //   color: #f00;
+  // }
+  // &-ip {
+  //   margin-bottom: 1rem;
+  //   width: 100%;
+  //   background: #111;
+  //   padding: 1.2rem;
+  //   font-size: 1.5rem;
+  //   color: #fff;
+  //   text-transform: none;
+  // }
+  &-bottom {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    background: #6dd8dd;
+    line-height: 1.5;
+  }
+  // &-bt {
+  //   color: #f00;
+  // }
+
+  // &-share {
+  //   padding: 1rem 0;
+  //   &-icon {
+  //     height: 4.5rem;
+  //     width: 4.5rem;
+  //     line-height: 4.5rem;
+  //     font-size: 1.7rem;
+  //     color: #fff;
+  //     background: #111;
+  //     border-radius: 50%;
+  //     margin-right: 0.5rem;
+  //     text-align: center;
+  //   }
+  //   &-icon:hover {
+  //     background: #f00;
+  //   }
+  // }
+
+  // @media screen and (min-width: 1024px) and (max-width: 1366px) {
+  //   &-main {
+  //     grid-template-columns: repeat(3, 1fr);
+  //   }
+  // }
+  // @media screen and (max-width: 1023px) and (max-width: 768px) {
+  //   &-main {
+  //     grid-template-columns: repeat(3, 1fr);
+  //   }
+  // }
+
+  // @media screen and (max-width: 767px) {
+  //   &-main {
+  //     grid-template-columns: repeat(1, 1fr);
+  //   }
+  //   &-bottom {
+  //     font-size: 1.5rem;
+  //   }
+  // }
+
+  // @media only screen and (max-width: 767px) and (min-width: 600px) {
+  //   &-main {
+  //     grid-template-columns: repeat(2, 1fr);
+  //   }
+  // }
+}
+// icon share
