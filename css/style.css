@@ -507,6 +507,13 @@ html {
   font-family: "Courier New", Courier, monospace;
 }
 
+.wter-vd {
+  width: 100%;
+}
+.wter-img {
+  width: 100%;
+}
+
 .footer {
   background: #fff;
   position: relative;
