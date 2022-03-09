@@ -46,8 +46,10 @@
   display: none;
 }
 @media screen and (max-width: 1024px) {
-  .menu-navbar {
-    display: none;
+  .menu {
+    display: flex;
+    gap: 110px;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -432,7 +434,7 @@ html {
 }
 .chat-open-chatbox {
   background-color: #098187;
-  color: white;
+  color: black;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -464,17 +466,17 @@ html {
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #dcbcbc;
+  background: #2eaeb5;
   resize: none;
   min-height: 200px;
 }
 .chat-form-container textarea:focus {
-  background: #b19a9a;
+  background: #098187;
   outline: none;
 }
 .chat-form-container .btn {
   background-color: #4caf50;
-  color: white;
+  color: black;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -497,7 +499,7 @@ html {
   background: #098187;
 }
 .chat-close-chatbox {
-  color: white;
+  color: #faf4f4;
   cursor: pointer;
   background: #950909;
   margin-left: 30px;
@@ -506,7 +508,7 @@ html {
   text-align: center;
 }
 .chat-content {
-  color: white;
+  color: #fff;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -543,7 +545,7 @@ html {
 .footer-link {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  color: #111;
+  color: #0d0df5;
 }
 .footer-link:hover {
   color: #6dd8dd;

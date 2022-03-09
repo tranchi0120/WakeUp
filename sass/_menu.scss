@@ -20,9 +20,12 @@
     display: none;
   }
   @media screen and (max-width: 1024px) {
-    &-navbar {
-      display: none;
-    }
+    // &-navbar {
+    //   display: none;
+    // }
+    display: flex;
+    gap: 110px;
+    align-items: center;
   }
 
   // menu-mini
